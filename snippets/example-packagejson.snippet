@@ -5,7 +5,8 @@
     "build:presentation": "mdx-deck build demo-advanced.mdx --no-html",
     "build:images": "cp -r images dist/",
     "build:assets": "cp -r snippets dist/",
-    "now-build": "npm run build:presentation && npm run build:images && npm run build:assets",
+    "build:sounds": "cp -r sounds dist/"
+    "now-build": "npm run build:presentation && npm run build:images && npm run build:assets && npm run build:sounds",
     "deploy": "now"
   },
   "devDependencies": {
